@@ -1,5 +1,5 @@
 {
-  "name": "barber-pub",
+  "name": "funding-booster-api",
   "version": "1.0.0",
   "description": "",
   "main": "src/index.ts",
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iagxferreira/barber-pub.git"
+    "url": "git+https://github.com/iagxferreira/funding-booster-api.git"
   },
   "keywords": [],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/iagxferreira/barber-pub/issues"
+    "url": "https://github.com/iagxferreira/funding-booster-api/issues"
   },
-  "homepage": "https://github.com/iagxferreira/barber-pub#readme",
+  "homepage": "https://github.com/iagxferreira/funding-booster-api#readme",
   "dependencies": {
     "@prisma/client": "^3.9.2",
     "@types/jest": "^27.4.0",

@@ -1,9 +1,9 @@
-# barber-pub
+# funding-booster-api
 
 ### Como executar
 Clone o projeto
 ```shell
-    $ git clone https://github.com/iagxferreira/barber-pub.git
+    $ git clone https://github.com/iagxferreira/funding-booster-api.git
 ```
 Instale as dependências
 ```shell
