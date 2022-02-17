@@ -2,3 +2,7 @@ node_modules
 yarn.lock
 .idea
 dist
+package-lock.json
+yarn.lock
+.env
+coverage
