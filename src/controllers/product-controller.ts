@@ -2,7 +2,7 @@ import { NextFunction, Request, Response } from "express";
 import {Product} from "../domain";
 import connection from "../infra/database";
 
-export class ProductController {
+class ProductController {
     async get(req: Request, res: Response, next: NextFunction){
         const products = await connection.product.findMany({select:{  id: true }})
         res.json({ products })
