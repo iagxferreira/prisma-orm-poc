@@ -17,3 +17,11 @@ Execute o projeto
     ou
     $ npm run start
 ```
+Criando um banco de dados
+```
+    $ docker run --name postgres -e POSTGRES_PASSWORD=postgres -d postgres
+```
+Encontrando o IP do banco dentro da rede
+```
+    $ docker inspect postgres
+```

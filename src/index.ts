@@ -1,9 +1,16 @@
-const express = require('express')
+import express from 'express'
+import { PrismaClient } from '@prisma/client'
+import ProductController from './controllers/product-controller'
+import bodyParser from "body-parser";
 const app = express()
 const port = 3000
 
-app.get('/', (req, res) => {
-    res.json({ isPucEnabled: true})
+app.use(bodyParser.json())
+
+app.get('/', ProductController.get)
+app.post('/', ProductController.post)
+
+new PrismaClient().$connect().then(()=>{
+    app.listen(port, () => { console.log(`Listening on port ${port}`)})
 })
 
-app.listen(port, () => { console.log(`Example app listening on port ${port}`)})
