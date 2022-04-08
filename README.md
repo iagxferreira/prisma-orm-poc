@@ -1,4 +1,4 @@
-# funding-booster-api
+# prisma-orm-poc
 
 ### Como executar
 Clone o projeto
