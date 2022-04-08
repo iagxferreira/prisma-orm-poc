@@ -1,5 +1,5 @@
 {
-  "name": "funding-booster-api",
+  "name": "prisma-orm-poc",
   "version": "1.0.0",
   "description": "",
   "main": "src/index.ts",
